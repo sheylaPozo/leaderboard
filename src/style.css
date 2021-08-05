@@ -15,6 +15,10 @@ main {
   margin-top: 3rem;
 }
 
+body {
+  padding-right: 65px;
+}
+
 h1 {
   font-size: 46px;
   color:rgb(182, 129, 129);
