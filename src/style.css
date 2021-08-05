@@ -18,7 +18,6 @@ main {
 h1 {
   font-size: 46px;
   color:rgb(182, 129, 129);
-  border-color: aqua;
 }
 
 .subtitle {
@@ -31,6 +30,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   padding: 2rem;
+  background-color: rgb(220, 171, 248);
 }
 
 .div-score-top {
