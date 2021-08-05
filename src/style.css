@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+body {
+  padding-right: 65px;
+}
+
+h1 {
+  font-size: 46px;
+  color: rgb(182, 129, 129);
+}
+
+.subtitle {
+  font-size: 28px;
+  color: rgb(182, 129, 129);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  padding: 2rem;
+  background-color: rgb(220, 171, 248);
+  border-radius: 2px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.div-score-top {
+  display: flex;
+  gap: 1rem;
+}
+
+.refresh-button {
+  padding: 0.2rem;
+  background-color: rosybrown;
+}
+
+.table {
+  border: 1px solid #000;
+  margin-top: 1rem;
+}
+
+.table-row {
+  padding: 0.3rem;
+}
+
+.table-row:nth-child(even) {
+  background-color: rgb(182, 129, 129);
+}
+
+.div-inputs {
+  padding: 0 5rem;
+}
+
+form {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.submitt-button {
+  width: 30%;
+  padding: 0.2rem;
+  background-color: rosybrown;
+}
+
+input {
+  width: 100%;
+  padding: 0.3rem;
+  border: 1px solid #000;
+}
