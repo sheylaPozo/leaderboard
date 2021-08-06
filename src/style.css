@@ -1,3 +1,8 @@
+/*
+    ==============================================
+                ****** RESET *****
+    ==============================================
+*/
 * {
   margin: 0;
   padding: 0;
@@ -8,25 +13,26 @@ ul {
   list-style: none;
 }
 
+/*
+    ==============================================
+                ****** Global *****
+    ==============================================
+*/
+
 main {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
-}
-
-body {
-  padding-right: 65px;
+  padding: 0 5rem;
 }
 
 h1 {
   font-size: 46px;
-  color: rgb(182, 129, 129);
 }
 
 .subtitle {
   font-size: 28px;
-  color: rgb(70, 12, 57);
 }
 
 .main-container {
@@ -34,9 +40,6 @@ h1 {
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   padding: 2rem;
-  background-color: rgb(220, 171, 248);
-  border-radius: 2px;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .div-score-top {
@@ -46,7 +49,6 @@ h1 {
 
 .refresh-button {
   padding: 0.2rem;
-  background-color: rosybrown;
 }
 
 .table {
@@ -59,7 +61,7 @@ h1 {
 }
 
 .table-row:nth-child(even) {
-  background-color: rgb(182, 129, 129);
+  background-color: #ddd;
 }
 
 .div-inputs {
@@ -75,9 +77,8 @@ form {
 }
 
 .submit-button {
-  width: 30%;
+  width: 60px;
   padding: 0.2rem;
-  background-color: rosybrown;
 }
 
 input {
