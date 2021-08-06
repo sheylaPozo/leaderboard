@@ -5,15 +5,6 @@ const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/game
 
 const submitBtn = document.getElementById('submitBtn');
 
-// const constructJson = (name, score) => {
-//   score = Number(score);
-//   const user = {
-//     user: name,
-//     score,
-//   };
-//   return user;
-// };
-
 const displayResult = (user) => {
   const ul = document.getElementById('ulList');
 
@@ -75,8 +66,11 @@ submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
   const name = document.getElementById('userName').value;
   const score = document.getElementById('userScore').value;
-  //   if (name !== null && score !== null) {
-  sendData(name, score);
+  if (name.length > 0 && score >= 0) {
+    sendData(name, score);
+  } else {
+    throw new Error('invalid input');
+  }
   document.getElementById('userName').value = '';
   document.getElementById('userScore').value = '';
 //   }
@@ -85,9 +79,3 @@ submitBtn.addEventListener('click', (e) => {
 const thisScores = await getUser(url);
 
 displayResult(thisScores);
-
-// const sortScore = (arr) => {
-//   arr = arr.filter((el) => typeof el.score === 'number');
-//   arr.sort((a, b) => a.score - b.score).reverse();
-//   return arr.splice(0, 5);
-// };
