@@ -17,9 +17,9 @@ This project is been made with HTML5, CSS3, JS and Webpack, following the guidel
 
 🤍 Leaderboard Preview Image🤍
 
-Desktop version | Mobile version
+Desktop version      | Mobile version
 -------------------- | ----------------------
-![Desktop](https://user-images.githubusercontent.com/54015740/128586542-fe0d9c68-105d-4099-a1b8-9a9d59c81bcf.jpg)![Mobile](https://user-images.githubusercontent.com/54015740/128587320-c26619fe-f7f8-437b-ac25-1bdf70d1f76d.png)
+![Desktop](https://user-images.githubusercontent.com/54015740/128587432-884d46f3-3c5d-43f1-9bde-ecd070f648bc.jpg)![Mobile](https://user-images.githubusercontent.com/54015740/128587320-c26619fe-f7f8-437b-ac25-1bdf70d1f76d.png)
 
 ---
 
