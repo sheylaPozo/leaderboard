@@ -1,3 +1,8 @@
+/*
+    ==============================================
+                ****** RESET *****
+    ==============================================
+*/
 * {
   margin: 0;
   padding: 0;
@@ -8,35 +13,41 @@ ul {
   list-style: none;
 }
 
+li {
+  padding:  14px 10px;
+}
+
+li:nth-child(odd) {
+  background-color: rosybrown;
+}
+
 main {
-  width: 90%;
+  width: 90vw;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
-}
-
-body {
-  padding-right: 65px;
+  padding: 0 0.5rem;
 }
 
 h1 {
   font-size: 46px;
-  color: rgb(182, 129, 129);
+  color: rgb(189, 18, 123);
+  text-shadow: 3px 3px 5px darkorchid;
 }
 
 .subtitle {
   font-size: 28px;
-  color: rgb(182, 129, 129);
+  color: rgb(77, 2, 77);
+  text-shadow: 3px 3px 5px rgb(204, 50, 153);
 }
 
 .main-container {
   display: grid;
+  width: 90%;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   padding: 2rem;
-  background-color: rgb(220, 171, 248);
-  border-radius: 2px;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: paleturquoise;
 }
 
 .div-score-top {
@@ -44,13 +55,8 @@ h1 {
   gap: 1rem;
 }
 
-.refresh-button {
-  padding: 0.2rem;
-  background-color: rosybrown;
-}
-
 .table {
-  border: 1px solid #000;
+  border: 1px solid rosybrown;
   margin-top: 1rem;
 }
 
@@ -59,11 +65,11 @@ h1 {
 }
 
 .table-row:nth-child(even) {
-  background-color: rgb(182, 129, 129);
+  background-color: #ddd;
 }
 
 .div-inputs {
-  padding: 0 5rem;
+  padding: 0 0.5rem;
 }
 
 form {
@@ -74,14 +80,41 @@ form {
   gap: 1rem;
 }
 
-.submitt-button {
-  width: 30%;
-  padding: 0.2rem;
-  background-color: rosybrown;
-}
-
 input {
   width: 100%;
-  padding: 0.3rem;
-  border: 1px solid #000;
+  padding: 0.8rem;
+  color: black;
+  background-color: rgb(72, 134, 150);
+  border: 1px solid rgb(225, 65, 177);
+}
+
+input::placeholder {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgb(72, 134, 150);
+  border: 1px solid rosybrown;
+  box-shadow: 0 0 10px rgb(198, 65, 225);
+}
+
+.button {
+  padding: 0.8rem;
+  color: whitesmoke;  
+  background-color: rgb(165, 38, 159);
+}
+
+.button:hover {
+  border: 1px solid rgb(77, 2, 77);
+  box-shadow: 0 0 10px rgb(77, 2, 77);
+}
+
+@media  only screen and (max-width: 924px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    padding: 2rem;
+  }
 }
