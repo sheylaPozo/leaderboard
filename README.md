@@ -25,12 +25,12 @@ This project is been made with HTML5, CSS3, JS and Webpack, following the guidel
 - Webpack 🤍
 
 ---
-The main purpose of the project [Basic Webpack set up](https://sheylapozo.github.io/Basic-webpack-setup/)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
+The main purpose of the project [Basic Webpack set up](https://sheylapozo.github.io/leaderboard/)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
 
 # 🤍 Live Demo 🤍
 ---
 
-🤍 [Demo](https://sheylapozo.github.io/Basic-webpack-setup/) 
+🤍 [Demo](https://sheylapozo.github.io/leaderboard/) 
 
 ---
 
@@ -44,7 +44,7 @@ To get the content of this project locally you need to run this command on your 
 
  - ` cd <folder> `
 
-- ` git clone git@github.com:sheylaPozo/Basic-webpack.setup.git `
+- ` git clone git@github.com:sheylaPozo/leaderboard.git `
 
 ### 🤍 Install
 
@@ -89,7 +89,7 @@ For tracking linter errors locally you need to follow these steps:
 Contributions, issues, and feature requests are welcome! 🤍
 
 
-Feel free to check the [issues page](https://github.com/sheylapozo/Basic-webpack-setup/issues).
+Feel free to check the [issues page](https://github.com/sheylapozo/leaderboard/issues).
 
 
 ## 🤍 Show your support
