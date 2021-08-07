@@ -13,7 +13,15 @@ This project is been made with HTML5, CSS3, JS and Webpack, following the guidel
 ---
 
 > This project is part of Microverse's 2.0 curriculum. and it's been built with Html5 and CSS3 and JS as part of Microverse 2.0 curriculum.
-> A project to sort names in order to a score.
+> Leaderboard; a project that displays scores submitted by different players.
+
+🤍 Leaderboard Preview Image🤍
+
+Desktop version      | Mobile version
+-------------------- | ----------------------
+![Desktop](https://user-images.githubusercontent.com/54015740/128587561-6e0f2826-11be-43a2-a246-9b31368062b5.jpg)|![Mobile](https://user-images.githubusercontent.com/54015740/128587320-c26619fe-f7f8-437b-ac25-1bdf70d1f76d.png)
+
+---
 
 ## 🤍 Built With:
 
@@ -25,12 +33,12 @@ This project is been made with HTML5, CSS3, JS and Webpack, following the guidel
 - Webpack 🤍
 
 ---
-The main purpose of the project [Basic Webpack set up](https://sheylapozo.github.io/Basic-webpack-setup/)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
+The main purpose of the project [leaderboard](https://sheylapozo.github.io/leaderboard/)  is to put in practice HTML5, CSS3, and Javascript concepts to build a website with all the proffesional outview of it.
 
 # 🤍 Live Demo 🤍
 ---
 
-🤍 [Demo](https://sheylapozo.github.io/Basic-webpack-setup/) 
+🤍 [Demo](https://sheylapozo.github.io/leaderboard/) 
 
 ---
 
@@ -44,7 +52,7 @@ To get the content of this project locally you need to run this command on your 
 
  - ` cd <folder> `
 
-- ` git clone git@github.com:sheylaPozo/Basic-webpack.setup.git `
+- ` git clone git@github.com:sheylaPozo/leaderboard.git `
 
 ### 🤍 Install
 
@@ -89,7 +97,7 @@ For tracking linter errors locally you need to follow these steps:
 Contributions, issues, and feature requests are welcome! 🤍
 
 
-Feel free to check the [issues page](https://github.com/sheylapozo/Basic-webpack-setup/issues).
+Feel free to check the [issues page](https://github.com/sheylapozo/leaderboard/issues).
 
 
 ## 🤍 Show your support
