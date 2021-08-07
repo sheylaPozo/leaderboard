@@ -13,7 +13,7 @@ This project is been made with HTML5, CSS3, JS and Webpack, following the guidel
 ---
 
 > This project is part of Microverse's 2.0 curriculum. and it's been built with Html5 and CSS3 and JS as part of Microverse 2.0 curriculum.
-> A project to sort names in order to a score.
+> Leaderboard; a project that displays scores submitted by different players.
 
 ## 🤍 Built With:
 
