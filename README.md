@@ -15,10 +15,13 @@ This project is been made with HTML5, CSS3, JS and Webpack, following the guidel
 > This project is part of Microverse's 2.0 curriculum. and it's been built with Html5 and CSS3 and JS as part of Microverse 2.0 curriculum.
 > Leaderboard; a project that displays scores submitted by different players.
 
-🤍 Preview of Project 🤍
+🤍 Leaderboard Preview Image🤍
+
 Desktop version | Mobile version
 -------------------- | ----------------------
-![Desktop](https://user-images.githubusercontent.com/54015740/128586542-fe0d9c68-105d-4099-a1b8-9a9d59c81bcf.jpg)![Mobile](https://user-images.githubusercontent.com/54015740/128587033-309d9a3d-6676-4ae2-b30d-cdd744336382.png)
+![Desktop](https://user-images.githubusercontent.com/54015740/128586542-fe0d9c68-105d-4099-a1b8-9a9d59c81bcf.jpg)![Mobile](https://user-images.githubusercontent.com/54015740/128587320-c26619fe-f7f8-437b-ac25-1bdf70d1f76d.png)
+
+---
 
 ## 🤍 Built With:
 
