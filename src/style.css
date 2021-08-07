@@ -14,7 +14,7 @@ ul {
 }
 
 li {
-  padding:  14px 10px;
+  padding: 14px 10px;
 }
 
 li:nth-child(odd) {
@@ -101,7 +101,7 @@ input:focus {
 
 .button {
   padding: 0.8rem;
-  color: whitesmoke;  
+  color: whitesmoke;
   background-color: rgb(165, 38, 159);
 }
 
@@ -110,7 +110,7 @@ input:focus {
   box-shadow: 0 0 10px rgb(77, 2, 77);
 }
 
-@media  only screen and (max-width: 924px) {
+@media only screen and (max-width: 924px) {
   .main-container {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
