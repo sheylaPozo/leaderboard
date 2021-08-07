@@ -18,7 +18,7 @@ This project is been made with HTML5, CSS3, JS and Webpack, following the guidel
    Desktop version   | Mobile version
 -------------------- | ----------------------
 ![Desktop](https://user-images.githubusercontent.com/54015740/128586542-fe0d9c68-105d-4099-a1b8-9a9d59c81bcf.jpg)
-![Mobile](https://user-images.githubusercontent.com/54015740/128586541-edaeb6bc-12ed-4654-9c36-1068c30a78e3.png)
+![Mobile](https://user-images.githubusercontent.com/54015740/128587033-309d9a3d-6676-4ae2-b30d-cdd744336382.png)
 
 ## 🤍 Built With:
 
