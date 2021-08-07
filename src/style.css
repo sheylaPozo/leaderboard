@@ -14,7 +14,7 @@ ul {
 }
 
 li {
-  padding: 8px;
+  padding:  14px 10px;
 }
 
 li:nth-child(odd) {
@@ -48,15 +48,6 @@ h1 {
   gap: 3rem;
   padding: 2rem;
   background-color: paleturquoise;
-}
-
-@media  only screen and (max-width: 924px) {
-  .main-container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 3rem;
-    padding: 2rem;
-  }
 }
 
 .div-score-top {
@@ -117,4 +108,13 @@ input:focus {
 .button:hover {
   border: 1px solid rgb(77, 2, 77);
   box-shadow: 0 0 10px rgb(77, 2, 77);
+}
+
+@media  only screen and (max-width: 924px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    padding: 2rem;
+  }
 }
