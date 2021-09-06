@@ -131,5 +131,5 @@
     "wildcard": "^2.0.0",
     "yocto-queue": "^0.1.0"
   },
-  "description": "To Do List Application made with Javascript and webpack."
+  "description": "Leaderboard Application made with Javascript and webpack."
 }
